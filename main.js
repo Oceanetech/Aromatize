@@ -28,7 +28,7 @@ function changeHeaderWhenScroll() {
   }
 }
 
-// TESTIMONIALS SLIDER (SWIPER)
+// slider de depoimento (SWIPER)
 const swiper = new Swiper('.swiper-container', {
   slidesPerView: 1,
   pagination: {
@@ -42,7 +42,7 @@ const swiper = new Swiper('.swiper-container', {
 const scrollReveal = ScrollReveal({
   origin: 'top',
   distance: '30px',
-  duration: 700,
+  duration: 1000,
   reset: true
 })
 
@@ -54,7 +54,7 @@ scrollReveal.reveal(
   #contact .text, #contact .links,
   footer .brand, footer .social
   `,
-  { interval: 100 }
+  { interval: 500 }
 )
 
 // APARECER BOTÃO PARA VOLTAR PARA O TOPO
